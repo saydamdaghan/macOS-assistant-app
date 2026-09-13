@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F541BB7BBCE1C0E2C548264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3685E330EC5277A9DD5661C6 /* Assets.xcassets */; };
+		337827B4AF2D3E31A8209259 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 02CDB25EFDA70D4404D33268 /* Supabase */; };
+		3C7842672D0354B4633B7B4B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039CEC13B1E671CC6BD79150 /* WidgetKit.framework */; };
+		E7302118EF48722E41DF45FD /* AsistanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA8403BEC8FA3DAF2DA8300 /* AsistanApp.swift */; };
+		55CEB3AD14EFE038E077280F /* KKUGrading.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE5E64AB1DFEEA62AA14A54 /* KKUGrading.swift */; };
+		8D95446A12070FBA10A58A46 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283461254156DBBB3C87E16A /* Models.swift */; };
+		7BA3555E72725714840D6F26 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F97EA7D3939F99AC39A26BD /* AppStore.swift */; };
+		96B6C9BF99D60B0770B7C923 /* BiometricService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF46AC92FAB26D8AA36CD759 /* BiometricService.swift */; };
+		3EB328B7BD603D98BABEB7D7 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0AF97D40111AAE30A5377C /* KeychainStore.swift */; };
+		573247A279639BAA26AEE0AF /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEA596DF309600F909285AC /* NotificationService.swift */; };
+		9FC1D9C8F984FF248E79DEBB /* WidgetBridgeWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DA3B161EA92E1934BB8B10 /* WidgetBridgeWriter.swift */; };
+		1A5A1BA5D2811875C36810B0 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4D6BC8839181C861EB7661 /* DesignSystem.swift */; };
+		1139F9CF5A2A36CBDC320492 /* AuthFlowViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381DA612301127A02ABFDAD0 /* AuthFlowViews.swift */; };
+		208D54B345A3AA0927871E8D /* CalendarGoalsNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C8447065A17386850C83CD /* CalendarGoalsNotes.swift */; };
+		15025FB71576AA605B9F6880 /* ShellChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C2B78BBE8CB7EA161B70D9 /* ShellChrome.swift */; };
+		E8BA05CA521197F48DC22AAE /* CoursesScheduleViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96D498A4C76004F80A341D6 /* CoursesScheduleViews.swift */; };
+		BAF26B5E96FF1A128B7525CA /* StudentAcademicViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7230F54F9AF1016FE07B7C /* StudentAcademicViews.swift */; };
+		FBF6942E1792D6A6205360E2 /* StudentDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FBACE21CD44FD97A268CC8 /* StudentDashboardView.swift */; };
+		B44D4B15E8A42EECF56911AE /* StudentShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81C0A094AD46CF9607261A1 /* StudentShell.swift */; };
+		2309531FC2590D7724FCE634 /* FinanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9411F7D6994CA391658CF862 /* FinanceView.swift */; };
+		D6733C100F19BCCC92E78895 /* JobsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF789D523AD8F0A591987BC4 /* JobsView.swift */; };
+		438E36D9FBCB9DD0EF441B3A /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5D419CA3ABCBF29265F293 /* ProjectsView.swift */; };
+		01796A986D4E7D90E379772B /* WorkDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604E627F7692292D60E72D57 /* WorkDashboardView.swift */; };
+		879CB8C9EB5AFEC42DA5DEDD /* WorkShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3488D1EE7776236534447A29 /* WorkShell.swift */; };
+		E8D12E49B56F3DAF35A7AF78 /* WidgetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86B6D680BA26DF6AD6624 /* WidgetSnapshot.swift */; };
+		C052110B86616F414519F937 /* AsistanWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADE10F5A49291FB7C8B1BAA /* AsistanWidgets.swift */; };
+		8FF7958A7F2B9B7B7AC85514 /* WidgetSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86B6D680BA26DF6AD6624 /* WidgetSnapshot.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		060C35239F908B8E4EB554F4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5718BA8B2965F0F686C8E55B /* Asistan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asistan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B57B0C87A58442C489D3141 /* AsistanWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AsistanWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3685E330EC5277A9DD5661C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DE4FB88B84FA4182B4BFAF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ED1E415FE820181EBCBA259 /* Asistan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Asistan.entitlements; sourceTree = "<group>"; };
+		FB31A6211145B5A6CAA7BF37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92D6A949CEAFAC650538F5EA /* AsistanWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AsistanWidgets.entitlements; sourceTree = "<group>"; };
+		039CEC13B1E671CC6BD79150 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		8DA8403BEC8FA3DAF2DA8300 /* AsistanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsistanApp.swift; sourceTree = "<group>"; };
+		CCE5E64AB1DFEEA62AA14A54 /* KKUGrading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/KKUGrading.swift; sourceTree = "<group>"; };
+		283461254156DBBB3C87E16A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Models.swift; sourceTree = "<group>"; };
+		0F97EA7D3939F99AC39A26BD /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/AppStore.swift; sourceTree = "<group>"; };
+		AF46AC92FAB26D8AA36CD759 /* BiometricService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/BiometricService.swift; sourceTree = "<group>"; };
+		BD0AF97D40111AAE30A5377C /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/KeychainStore.swift; sourceTree = "<group>"; };
+		8DEA596DF309600F909285AC /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/NotificationService.swift; sourceTree = "<group>"; };
+		A0DA3B161EA92E1934BB8B10 /* WidgetBridgeWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/WidgetBridgeWriter.swift; sourceTree = "<group>"; };
+		9E4D6BC8839181C861EB7661 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme/DesignSystem.swift; sourceTree = "<group>"; };
+		381DA612301127A02ABFDAD0 /* AuthFlowViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Auth/AuthFlowViews.swift; sourceTree = "<group>"; };
+		A4C8447065A17386850C83CD /* CalendarGoalsNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Shared/CalendarGoalsNotes.swift; sourceTree = "<group>"; };
+		48C2B78BBE8CB7EA161B70D9 /* ShellChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Shared/ShellChrome.swift; sourceTree = "<group>"; };
+		F96D498A4C76004F80A341D6 /* CoursesScheduleViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Student/CoursesScheduleViews.swift; sourceTree = "<group>"; };
+		BD7230F54F9AF1016FE07B7C /* StudentAcademicViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Student/StudentAcademicViews.swift; sourceTree = "<group>"; };
+		25FBACE21CD44FD97A268CC8 /* StudentDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Student/StudentDashboardView.swift; sourceTree = "<group>"; };
+		E81C0A094AD46CF9607261A1 /* StudentShell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Student/StudentShell.swift; sourceTree = "<group>"; };
+		9411F7D6994CA391658CF862 /* FinanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Work/FinanceView.swift; sourceTree = "<group>"; };
+		AF789D523AD8F0A591987BC4 /* JobsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Work/JobsView.swift; sourceTree = "<group>"; };
+		CB5D419CA3ABCBF29265F293 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Work/ProjectsView.swift; sourceTree = "<group>"; };
+		604E627F7692292D60E72D57 /* WorkDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Work/WorkDashboardView.swift; sourceTree = "<group>"; };
+		3488D1EE7776236534447A29 /* WorkShell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Work/WorkShell.swift; sourceTree = "<group>"; };
+		6ADE10F5A49291FB7C8B1BAA /* AsistanWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsistanWidgets.swift; sourceTree = "<group>"; };
+		FAC86B6D680BA26DF6AD6624 /* WidgetSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSnapshot.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8226845DD06A9803C9F1E0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337827B4AF2D3E31A8209259 /* Supabase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B4C0FBD7B26C24C775EFBC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7842672D0354B4633B7B4B /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CFC827E67DCAE34C72B9CED = {
+			isa = PBXGroup;
+			children = (
+				D18937288352B110FB7CD2FB /* Asistan */,
+				D05D537F53E8289EB1CE1F24 /* AsistanWidgets */,
+				33084B6F489D4D50798F0DFD /* Shared */,
+				021F2B7F3E0C61452C987484 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		021F2B7F3E0C61452C987484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5718BA8B2965F0F686C8E55B /* Asistan.app */,
+				1B57B0C87A58442C489D3141 /* AsistanWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D18937288352B110FB7CD2FB /* Asistan */ = {
+			isa = PBXGroup;
+			children = (
+				3685E330EC5277A9DD5661C6 /* Assets.xcassets */,
+				4DE4FB88B84FA4182B4BFAF5 /* Info.plist */,
+				5ED1E415FE820181EBCBA259 /* Asistan.entitlements */,
+				8DA8403BEC8FA3DAF2DA8300 /* AsistanApp.swift */,
+				CCE5E64AB1DFEEA62AA14A54 /* KKUGrading.swift */,
+				283461254156DBBB3C87E16A /* Models.swift */,
+				0F97EA7D3939F99AC39A26BD /* AppStore.swift */,
+				AF46AC92FAB26D8AA36CD759 /* BiometricService.swift */,
+				BD0AF97D40111AAE30A5377C /* KeychainStore.swift */,
+				8DEA596DF309600F909285AC /* NotificationService.swift */,
+				A0DA3B161EA92E1934BB8B10 /* WidgetBridgeWriter.swift */,
+				9E4D6BC8839181C861EB7661 /* DesignSystem.swift */,
+				381DA612301127A02ABFDAD0 /* AuthFlowViews.swift */,
+				A4C8447065A17386850C83CD /* CalendarGoalsNotes.swift */,
+				48C2B78BBE8CB7EA161B70D9 /* ShellChrome.swift */,
+				F96D498A4C76004F80A341D6 /* CoursesScheduleViews.swift */,
+				BD7230F54F9AF1016FE07B7C /* StudentAcademicViews.swift */,
+				25FBACE21CD44FD97A268CC8 /* StudentDashboardView.swift */,
+				E81C0A094AD46CF9607261A1 /* StudentShell.swift */,
+				9411F7D6994CA391658CF862 /* FinanceView.swift */,
+				AF789D523AD8F0A591987BC4 /* JobsView.swift */,
+				CB5D419CA3ABCBF29265F293 /* ProjectsView.swift */,
+				604E627F7692292D60E72D57 /* WorkDashboardView.swift */,
+				3488D1EE7776236534447A29 /* WorkShell.swift */,
+			);
+			path = Asistan;
+			sourceTree = "<group>";
+		};
+		D05D537F53E8289EB1CE1F24 /* AsistanWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				FB31A6211145B5A6CAA7BF37 /* Info.plist */,
+				92D6A949CEAFAC650538F5EA /* AsistanWidgets.entitlements */,
+				6ADE10F5A49291FB7C8B1BAA /* AsistanWidgets.swift */,
+			);
+			path = AsistanWidgets;
+			sourceTree = "<group>";
+		};
+		33084B6F489D4D50798F0DFD /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FAC86B6D680BA26DF6AD6624 /* WidgetSnapshot.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCD1BDFE40AA20836710EC01 /* Asistan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4BA8D936F9922A4712718DE /* Build configuration list for PBXNativeTarget "Asistan" */;
+			buildPhases = (
+				DE54E274973760DB10C0103F /* Sources */,
+				8226845DD06A9803C9F1E0E1 /* Frameworks */,
+				3073F9BACE8365BB56700AF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Asistan;
+			packageProductDependencies = (
+				02CDB25EFDA70D4404D33268 /* Supabase */,
+			);
+			productName = Asistan;
+			productReference = 5718BA8B2965F0F686C8E55B /* Asistan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADEAF5E167D4943BE484764E /* AsistanWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9B5ABFB48DBEAE075A34390 /* Build configuration list for PBXNativeTarget "AsistanWidgets" */;
+			buildPhases = (
+				FBE9117EB1A601F6D94ED27D /* Sources */,
+				6B4C0FBD7B26C24C775EFBC5 /* Frameworks */,
+				4E00C9015D9765EE6534B42C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsistanWidgets;
+			productName = AsistanWidgets;
+			productReference = 1B57B0C87A58442C489D3141 /* AsistanWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+			};
+			buildConfigurationList = 7FB635FF76817FFD4AF1408F /* Build configuration list for PBXProject "Asistan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = tr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				tr,
+				en,
+				Base,
+			);
+			mainGroup = 6CFC827E67DCAE34C72B9CED;
+			packageReferences = (
+				582681C2EAE02B3F3D399C0C /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			productRefGroup = 021F2B7F3E0C61452C987484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCD1BDFE40AA20836710EC01 /* Asistan */,
+				ADEAF5E167D4943BE484764E /* AsistanWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3073F9BACE8365BB56700AF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F541BB7BBCE1C0E2C548264 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E00C9015D9765EE6534B42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE54E274973760DB10C0103F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7302118EF48722E41DF45FD /* AsistanApp.swift in Sources */,
+				55CEB3AD14EFE038E077280F /* KKUGrading.swift in Sources */,
+				8D95446A12070FBA10A58A46 /* Models.swift in Sources */,
+				7BA3555E72725714840D6F26 /* AppStore.swift in Sources */,
+				96B6C9BF99D60B0770B7C923 /* BiometricService.swift in Sources */,
+				3EB328B7BD603D98BABEB7D7 /* KeychainStore.swift in Sources */,
+				573247A279639BAA26AEE0AF /* NotificationService.swift in Sources */,
+				9FC1D9C8F984FF248E79DEBB /* WidgetBridgeWriter.swift in Sources */,
+				1A5A1BA5D2811875C36810B0 /* DesignSystem.swift in Sources */,
+				1139F9CF5A2A36CBDC320492 /* AuthFlowViews.swift in Sources */,
+				208D54B345A3AA0927871E8D /* CalendarGoalsNotes.swift in Sources */,
+				15025FB71576AA605B9F6880 /* ShellChrome.swift in Sources */,
+				E8BA05CA521197F48DC22AAE /* CoursesScheduleViews.swift in Sources */,
+				BAF26B5E96FF1A128B7525CA /* StudentAcademicViews.swift in Sources */,
+				FBF6942E1792D6A6205360E2 /* StudentDashboardView.swift in Sources */,
+				B44D4B15E8A42EECF56911AE /* StudentShell.swift in Sources */,
+				2309531FC2590D7724FCE634 /* FinanceView.swift in Sources */,
+				D6733C100F19BCCC92E78895 /* JobsView.swift in Sources */,
+				438E36D9FBCB9DD0EF441B3A /* ProjectsView.swift in Sources */,
+				01796A986D4E7D90E379772B /* WorkDashboardView.swift in Sources */,
+				879CB8C9EB5AFEC42DA5DEDD /* WorkShell.swift in Sources */,
+				E8D12E49B56F3DAF35A7AF78 /* WidgetSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE9117EB1A601F6D94ED27D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C052110B86616F414519F937 /* AsistanWidgets.swift in Sources */,
+				8FF7958A7F2B9B7B7AC85514 /* WidgetSnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5E8ACABCCBE1DB5D311988C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				ONLY_ACTIVE_ARCH = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F84FD35CA8548076F2B51EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				ONLY_ACTIVE_ARCH = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9303EFBCAFCD82C17933C9EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Asistan/Asistan.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Asistan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daghan.asistan;
+				PRODUCT_NAME = Asistan;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+
+			};
+			name = Debug;
+		};
+		0F8B4C7FB77C768D3A78A504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Asistan/Asistan.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Asistan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daghan.asistan;
+				PRODUCT_NAME = Asistan;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+
+			};
+			name = Release;
+		};
+		B2449CC5E4C110B28DB6F50B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+
+				CODE_SIGN_ENTITLEMENTS = AsistanWidgets/AsistanWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AsistanWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daghan.asistan.widgets;
+				PRODUCT_NAME = AsistanWidgets;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+
+			};
+			name = Debug;
+		};
+		A1DC914377F49283DE8E215A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+
+				CODE_SIGN_ENTITLEMENTS = AsistanWidgets/AsistanWidgets.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = AsistanWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daghan.asistan.widgets;
+				PRODUCT_NAME = AsistanWidgets;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FB635FF76817FFD4AF1408F /* Build configuration list for PBXProject "Asistan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E8ACABCCBE1DB5D311988C9 /* Debug */,
+				F84FD35CA8548076F2B51EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4BA8D936F9922A4712718DE /* Build configuration list for PBXNativeTarget "Asistan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9303EFBCAFCD82C17933C9EB /* Debug */,
+				0F8B4C7FB77C768D3A78A504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9B5ABFB48DBEAE075A34390 /* Build configuration list for PBXNativeTarget "AsistanWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2449CC5E4C110B28DB6F50B /* Debug */,
+				A1DC914377F49283DE8E215A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		582681C2EAE02B3F3D399C0C /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.31.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		02CDB25EFDA70D4404D33268 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 582681C2EAE02B3F3D399C0C /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}
